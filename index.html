@@ -7,20 +7,18 @@
     <title>Igra 0.1</title>
 </head>
 <body style="text-align: center;">
-    <div class="kontenjer">
-        <h1>Kamen papir škare <br> 👊🏼 📃 ✂️</h1>
-        <div class="skor">
-            <p>Igrač: <span id="igračev_rezultat">0</span></p>
-            <p>Protivnik: <span id="kompjuterski_rezultat">0</span></p>
-        </div>
-        <div class="izbor">
-            <button class="izbor" onclick="igraj('Kamen')">Kamen</button>
-            <button class="izbor" onclick="igraj('Papir')">Papir</button>
-            <button class="izbor" onclick="igraj('Škare')">Škare</button>
-        </div>
-        <p id="rezultat">Ti dobivaš!</p>
-        <p id="najveći_rezultat">Tvoj trenutni najveći skor je: 1</p>
+    <h1>Kamen papir škare <br> 👊🏼 📃 ✂️</h1>
+    <div class="skor">
+        <p>Igrač: <span id="igračev_rezultat">0</span></p>
+        <p>Protivnik: <span id="kompjuterski_rezultat">0</span></p>
     </div>
+    <div class="izbor">
+        <button class="izbor" onclick="igraj('Kamen')">Kamen</button>
+        <button class="izbor" onclick="igraj('Papir')">Papir</button>
+        <button class="izbor" onclick="igraj('Škare')">Škare</button>
+    </div>
+    <p id="rezultat">Ti dobivaš!</p>
+    <p id="najveći_rezultat">Tvoj trenutni najveći skor je: 1</p>
     <script src="app.js"></script>
 </body>
 </html>
